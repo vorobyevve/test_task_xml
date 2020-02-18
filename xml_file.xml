@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetShipmentUpdatesResult>
+    <Shipments>
+        <Shipment>
+            <Container>
+                <OrderNumber>5108046</OrderNumber>
+                <ContainerNumber>5108046_1</ContainerNumber>
+                <CustomerOrderNumber>abcq123</CustomerOrderNumber>
+                <ShipDate>2015-07-12T12:00:00</ShipDate>
+                <CarrierName>UPS</CarrierName>
+                <TrackingNumber>1ZX20520A803682850</TrackingNumber>
+                <StatusCode>InTransit</StatusCode>
+                <Events>
+                    <TrackingEvent>
+                        <TimeStamp>2015-06-29T13:53:18</TimeStamp>
+                        <City></City>
+                        <StateOrProvince></StateOrProvince>
+                        <Description>manifested from Warehouse</Description>
+                        <TrackingStatus>Manifest</TrackingStatus>
+                    </TrackingEvent>
+                    <TrackingEvent>
+                        <TimeStamp>2015-06-29T18:47:44</TimeStamp>
+                        <City>Glenwillow</City>
+                        <StateOrProvince>OH</StateOrProvince>
+                        <Description>Status: AF Recorded</Description>
+                        <TrackingStatus>In Transit</TrackingStatus>
+                    </TrackingEvent>
+                </Events>
+            </Container>
+        </Shipment>
+        <Shipment>
+            <Container>
+                <OrderNumber>456789</OrderNumber>
+                <ContainerNumber>44789</ContainerNumber>
+                <CustomerOrderNumber>abcq123</CustomerOrderNumber>
+                <ShipDate>2015-07-03T13:56:27</ShipDate>
+                <CarrierName>UP2</CarrierName>
+                <TrackingNumber>1Z4561230020</TrackingNumber>
+                <StatusCode>IN_TRANSIT</StatusCode>
+                <Events>
+                    <TrackingEvent>
+                        <TimeStamp>2015-07-03T13:56:27</TimeStamp>
+                        <City>Glenwillow</City>
+                        <StateOrProvince>OH</StateOrProvince>
+                        <Description>manifested from Warehouse</Description>
+                        <TrackingStatus>Manifest</TrackingStatus>
+                    </TrackingEvent>
+                </Events>
+            </Container>
+        </Shipment>
+    </Shipments>
+    <MatchingRecords>2</MatchingRecords>
+    <RequestId></RequestId>
+    <RecordsRemaining>0</RecordsRemaining>
+</GetShipmentUpdatesResult>
